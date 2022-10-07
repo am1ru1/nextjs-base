@@ -6,15 +6,16 @@ NextJS Template based on
 2. Yarn locked and no npm
 3. Configured ESLint to extend eslint:recommended and next
 4. Prettier configured
-5. Husky git hooks. Prepared install for Yarn Prepare.
+5. Husky git hooks. Prepared install through Yarn Prepare.
 6. Git Pre-commit with Lint
 7. Git Pre-push with Build
 8. Git commit-msg Lint with @commitlint/config-conventional. Refer to commitlint.config.js for accepted commit subjects.
 9. VScode configured with Prettier and NextJS debug settings. Install https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode.
+10. Directory structure with components and lib
 
 To consider for your own customization
 
-1. Use Tailwind
+1. Use Tailwind/MantineUI
 2. Use Storybook. Then ESlint to extend "plugin:storybook/recommended".
 
 ## Getting Started
