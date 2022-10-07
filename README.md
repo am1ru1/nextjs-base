@@ -9,7 +9,7 @@ NextJS Template based on
 5. Husky git hooks. Prepared install for Yarn Prepare.
 6. Git Pre-commit with Lint
 7. Git Pre-push with Build 
-
+8. Commit Lint with @commitlint/config-conventional
 
 
 To consider for your own customization
