@@ -5,6 +5,7 @@ NextJS Template based on
 1. Node locked to v16.x
 2. Yarn locked and no npm
 3. Configured ESLint to extend eslint:recommended and next
+4. Prettier configured
 
 
 To consider for your own customization
