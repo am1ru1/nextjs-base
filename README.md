@@ -12,6 +12,7 @@ NextJS Template based on
 8. Git commit-msg Lint with @commitlint/config-conventional. Refer to commitlint.config.js for accepted commit subjects.
 9. VScode configured with Prettier and NextJS debug settings. Install https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode.
 10. Directory structure with components and lib
+11. GitHub codeql scan and dependabot
 
 To consider for your own customization
 
@@ -50,4 +51,3 @@ You can check out [the Next.js GitHub repository](https://github.com/vercel/next
 The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
 Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
-
