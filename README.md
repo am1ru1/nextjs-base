@@ -6,6 +6,10 @@ NextJS Template based on
 2. Yarn locked and no npm
 3. Configured ESLint to extend eslint:recommended and next
 4. Prettier configured
+5. Husky git hooks. Prepared install for Yarn Prepare.
+6. Git Pre-commit with Lint
+7. Git Pre-push with Build 
+
 
 
 To consider for your own customization
