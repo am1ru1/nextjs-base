@@ -1,5 +1,16 @@
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
+NextJS Template based on
+
+1. Node locked to v16.x
+2. Yarn locked and no npm
+3. Configured ESLint to extend eslint:recommended and next
+
+
+To consider for your own customization
+1. Use Tailwind
+2. Use Storybook. Then ESlint to extend "plugin:storybook/recommended".
+
 ## Getting Started
 
 First, run the development server:
