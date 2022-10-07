@@ -19,6 +19,8 @@ To consider for your own customization
 1. Use Tailwind/MantineUI
 2. Use Storybook. Then ESlint to extend "plugin:storybook/recommended".
 
+Inspired by: https://github.com/alexeagleson/nextjs-fullstack-app-template
+
 ## Getting Started
 
 First, run the development server:
