@@ -16,6 +16,7 @@ NextJS Template based on
 9. VScode configured with Prettier and NextJS debug settings. Install https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode.
 10. Directory structure with components and lib
 11. GitHub codeql scan and dependabot
+12. Jest test with simple check on index page
 
 To consider for your own customization
 
