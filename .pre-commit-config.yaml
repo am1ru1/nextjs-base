@@ -26,10 +26,13 @@ repos:
         additional_dependencies: ['@commitlint/config-conventional@8.3.4']
   - repo: local
     hooks:
-      - id: husky-run-pre-push-v2
+      - id: yarn-build-test
         name: husky
-        language: system
-        entry: .husky/pre-push
+        entry: yarn install && yarn build
+        entry: >-
+          bash -c 'yarn install &&
+          yarn build'
+        language: node
         pass_filenames: false
         always_run: true
-# retrigger ci
+
