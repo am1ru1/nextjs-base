@@ -36,7 +36,7 @@ repos:
         name: check if yarn install and build works
         entry: >-
           bash -c 'npm install --quiet --global yarn &&
-          yarn --quiet install &&
+          yarn --quiet install --frozen-lockfile &&
           yarn --quiet build'
         language: node
         pass_filenames: false
