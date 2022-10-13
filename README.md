@@ -1,3 +1,5 @@
+[![pre-commit.ci status](https://results.pre-commit.ci/badge/github/am1ru1/nextjs-base/main.svg)](https://results.pre-commit.ci/latest/github/am1ru1/nextjs-base/main)
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 NextJS Template based on
