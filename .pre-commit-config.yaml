@@ -26,11 +26,10 @@ repos:
         additional_dependencies: ['@commitlint/config-conventional@8.3.4']
   - repo: local
     hooks:
-      - id: husky-run-pre-push
+      - id: husky-run-pre-push-v2
         name: husky
         language: system
         entry: .husky/pre-push
         pass_filenames: false
         always_run: true
-
 # retrigger ci
