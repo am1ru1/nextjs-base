@@ -29,6 +29,6 @@ repos:
       - id: husky-run-pre-push
         name: husky
         language: system
-        entry: node_modules/.bin/husky-run pre-push
+        entry: .husky/pre-push
         pass_filenames: false
         always_run: true
