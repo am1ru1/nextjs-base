@@ -32,12 +32,17 @@ repos:
         language: system
         pass_filenames: false
         always_run: true
-      - id: yarn-build-test
-        name: check if yarn install and build works
+      - id: npm-install-test
+        name: check if npm install works
         entry: >-
-          bash -c 'npm install --quiet --global yarn &&
-          yarn --quiet install --frozen-lockfile &&
-          yarn --quiet build'
+          bash -c 'npm install --quiet run ci'
+        language: node
+        pass_filenames: false
+        always_run: true
+      - id: npm-build-test
+        name: check if npm build works
+        entry: >-
+          bash -c 'npm --quiet run build'
         language: node
         pass_filenames: false
         always_run: true
