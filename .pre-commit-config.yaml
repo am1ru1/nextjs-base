@@ -26,11 +26,18 @@ repos:
         additional_dependencies: ['@commitlint/config-conventional@8.3.4']
   - repo: local
     hooks:
+      - id: git-dirty
+        name: Check if git reports dirty
+        entry: git diff --exit-code
+        language: system
+        pass_filenames: false
+        always_run: true
       - id: yarn-build-test
         name: husky
         entry: yarn install && yarn build
         entry: >-
-          bash -c 'yarn install &&
+          bash -c 'npm install --global yarn &&
+          yarn install &&
           yarn build'
         language: node
         pass_filenames: false
